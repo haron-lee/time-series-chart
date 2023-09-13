@@ -1,9 +1,10 @@
 export interface ChartDataType {
-  [date: string]: DataType;
+  date: string;
+  data: DataType;
 }
 
 export interface DataType {
   id: string;
   value_area: number;
-  value_number: number;
+  value_bar: number;
 }
