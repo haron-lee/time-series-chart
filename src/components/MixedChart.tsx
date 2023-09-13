@@ -81,8 +81,6 @@ const MixedChart: React.FC = () => {
 
   const options = {
     responsive: true,
-    // maintainAspectRatio: false,
-    // aspectRatio: 2 / 1,
     interaction: {
       intersect: false,
       mode: 'index' as const,
