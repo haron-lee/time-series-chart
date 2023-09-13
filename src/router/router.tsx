@@ -1,6 +1,6 @@
 import App from 'App';
 import { createBrowserRouter } from 'react-router-dom';
-import Chart from 'pages/Chart';
+import ChartHome from 'pages/ChartHome';
 
 const router = createBrowserRouter([
   {
@@ -9,7 +9,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Chart />,
+        element: <ChartHome />,
       },
     ],
   },
