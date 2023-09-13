@@ -22,20 +22,19 @@ const GlobalStyle = createGlobalStyle`
 
   :root {
     /* 컬러 변수 */
-    --bg: #ECF2FF;
-    --gray-100: #f8f8f8;
-    --gray-200: #DEDEDE;
-    --gray-400: #D2D2D2;
-    --gray-600: #B4B4B4;
-    --gray-700: #8F8F8F;
-    --gray-800: #787878;
-    --primary: #576CBC;
-    --red: #F16A57;
+    --bg: #fff;
+    --dark-bg: #001D26;
+    --deep-bg: #23272a;
+    --gray-400: #b6c9d6;
+    --gray-500: #99aab5;
+    --gray-800: #76838d;
+    --primary: #7CA0AD;
+    --red: #FF5200;
   }
 
   /* tag reset */
   body {
-    background-color: var(--bg);
+    background-color: var(--dark-bg);
     box-sizing: border-box;
     font-family: 'Pretendard-Regular';
   }
